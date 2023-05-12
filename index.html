@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interagindo com Python</title>
+</head>
+<body>
+	<form action="/" method="post">
+		<label for="nome">Digite seu nome:</label>
+		<input type="text" id="nome" name="nome">
+		<button type="submit">Enviar</button>
+	</form>
+
+	{% if resultado %}
+		<p>{{ resultado }}</p>
+	{% endif %}
+</body>
+</html>
